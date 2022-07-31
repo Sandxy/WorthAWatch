@@ -44,6 +44,7 @@ body {
  #mainheader {
     float: left;
     font-size: 4vw;
+    padding-left: 1%;
  }
 
  #list {
@@ -297,15 +298,50 @@ h2 {
 
 .footer { 
     grid-area: footer;
-    position: relative;
     margin-top: 1%;
     background-color: var(--contentback);
     margin-bottom: 1%;
-    font-size: 2vw;
-    text-align: right;
-    padding: 1% 0% 1% 0%;
-    font-weight: 1000;
     font-family: 'Lato', sans-serif;
+    padding: 1%;
+    font-size: 1.1vw;
+     
  }
 
+ .footerLeft {
+    float:left;
+    width: 33.33%;
+ }
 
+ .footerRight {
+    float: right;
+    width: 33.33%;
+ }
+
+ .footerMiddle {
+    float:center;
+    width: 33.33%;
+    margin-left: 40%;
+}
+
+#footerTitle {
+    border-bottom: solid black 0.3vw;
+    font-weight: 1000;
+    font-size: 1.6vw;
+}
+
+.footerContent {
+    margin-top: 3%;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+#footerLinks:link, :visited {
+    color: black;
+}
+
+#footerLinks:hover {
+    color: var(--light);
+}
+
+
+ 
