@@ -1,1 +1,97 @@
 
+
+.aboutGrid {
+    display: grid;
+    grid-template-areas:
+        'header header '
+        'aboutwaw socialMedia'
+        'footer footer ';
+    grid-template-columns: 70% 30%;
+}
+
+
+.aboutwaw {
+    grid-area: aboutwaw;
+    display: grid;
+    width: 100%;
+    padding-top: 1%;
+    background-color: var(--contentback);
+    height: 98.7%;
+
+}
+
+.aboutwaw > div {
+    margin-left: 1%;
+    width: 98%;
+}
+
+
+/*Every article has a sepperate grid to layout its content*/
+
+.aboutwawgrid {
+    border-top: black solid 0.5vw;
+    display: grid;
+    grid-template-areas:
+        'articleimages articletexts rate';
+    background-color: var(--medium);
+    grid-template-columns: 30% 55% 12%;
+    padding: 1%;
+    gap: 2%;
+    height: 165%;
+    margin-top: -25%;
+}
+
+#aboutHeading {
+    font-family: 'Lato', sans-serif;
+    font-size: 3vw;
+    margin-left: 1%;
+    font-weight: 1000;
+}
+
+#rateAbout {
+    grid-area: rate;
+    width: 100%;
+    height: 18%;
+    margin-top: -9%;
+}
+
+#aboutwawtexts {
+    grid-area: articletexts;
+    width: 90%;
+    height: 16vw;
+}
+
+#aboutwawdate {
+    float: left;
+    width: 90%;
+    font-size: 1.1vw;
+    font-family: 'Andale Mono', monospace;
+}
+
+#aboutwawheading {
+    font-size: 2.4vw;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#aboutwawdescr {
+    font-size: 1.4vw;
+    font-family: 'Helvetica', sans-serif;
+    width: 120%;
+    line-height: 1.4;
+}
+
+#aboutwawimages {
+    grid-area: articleimages;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.socialMedia2 { 
+    grid-area: socialMedia;
+    background-color: var(--contentback);
+    margin-left: 3%;
+ }
