@@ -1,0 +1,306 @@
+
+:root {
+    --lightest: #F9F4F5;
+    --light: #e3dcec;
+    --medium: #70587C;
+    --dark: #502F4C;
+    --black: #000000;
+    --white: #FFFFFF;
+    --contentback: #877387;
+    --bodyback: #190219;
+    --topbot: #312244;
+
+}
+body {
+    background-color: var(--bodyback);
+    margin: 1% 2% 0% 2%;
+}
+
+
+
+.websiteGrid {
+    display: grid;
+    grid-template-areas:
+        'header header '
+        'largeWindow largeWindow '
+        'articles socialMedia'
+        'footer footer ';
+    grid-template-columns: 70% 30%;
+}
+
+
+.header { 
+    grid-area: header;
+    background-color: var(--contentback);
+    margin-bottom: 1%;
+    font-size: 2vw;
+    text-align: right;
+    padding: 1% 0% 1% 0%;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+ }
+ 
+
+ #mainheader {
+    float: left;
+    font-size: 4vw;
+ }
+
+ #list {
+     margin-top: 1%;
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 50%;
+  }
+  
+  li {
+    display: inline;
+    padding: 4% 2% 5% 2%;
+  }
+
+ li > a:link, a:visited {
+    text-decoration: none;
+    color: black;
+ }
+
+ li:hover {
+    background-color: var(--medium);
+    text-decoration: underline;
+ }
+ 
+.socialMedia { 
+    grid-area: socialMedia;
+    background-color: var(--contentback);
+    margin-left: 3%;
+    margin-top: 9.5%;
+ }
+
+ #socialimg {
+    width: 20%;
+    height: auto;
+    float: right;
+ }
+
+ #sociallink {
+    float: left;
+    width: 60%;
+    font-size: 2vw;
+    margin-top: 5%;
+ }
+
+ .social {
+    border-top: black solid 0.5vw;
+    margin: 12% 8% 30% 5.5%;
+ }
+
+ .exploring {
+    margin: 8% 8% 0% 5.5%;
+    box-sizing: border-box;
+    padding: 2%;
+ }
+
+ #artlinks {
+    padding-bottom: 6%;
+    font-size: 1.6vw;
+    font-family: 'Helvetica', sans-serif; 
+}
+
+ #artlinks > a:hover {
+    color: var(--light);
+ }
+
+ #artlinks > a:link, a:visited {
+     color: black;
+ }
+
+.largeWindow {
+    grid-area: largeWindow;
+    display: grid;
+    grid-template-areas:
+        'item1 item2 item2'
+        'item3 item4 item5';
+    background-color: var(--contentback);
+    grid-template-columns: 32.66% 32.66% 32.66%;
+    grid-template-rows: 50% 50%;
+    padding: 1%;
+    margin-bottom: 1%;
+    gap: 1%;
+    height: 100%;
+}
+
+.largeWindow > div {
+  background-color: var(--medium);
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.item1 { 
+    padding-top: 10%;
+    grid-area: item1;
+    position: relative;
+ }
+
+.item2 { 
+    grid-area: item2; 
+    position: relative;
+   
+}
+
+.item3 { 
+    grid-area: item3;
+    position: relative;
+ }
+
+.item4 { 
+    grid-area: item4; 
+    position: relative;
+}
+
+.item5 { 
+    grid-area: item5; 
+    position: relative;
+}
+
+#images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#headings {
+    font-size: 20px;
+    text-align: center;
+    z-index: 1;
+    float: right;
+    width: 80%;
+}
+
+#mainHeading {
+    font-size: 6vw;
+    z-index: 1;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.content {
+    font-size: 2vw;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5% 2% 0% 2%;
+}
+
+#title {
+    font-size: 2.3vw;
+    color: white;
+    text-align: left;
+    position: absolute;
+    padding: 2%;
+    bottom: 5px;
+    margin-bottom: 4%;
+    z-index: 1;
+    background-color: rgba(49, 46, 46, 0.8);
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*Grid for articles*/
+
+.articles {
+    grid-area: articles;
+    display: grid;
+    padding: 10px;
+    width: 100%;
+    padding-top: 1%;
+    background-color: var(--contentback);
+    padding-bottom: 25%;
+    gap: 8%;
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+
+.articles > div {
+    margin-left: 6%;
+    width: 87%;
+}
+
+h2 {
+    margin-bottom: -2%;
+    font-family: 'Lato', sans-serif;
+    font-size: 3vw;
+    margin-left: 5.5%;
+    font-weight: 1000;
+}
+
+/*Every article has a sepperate grid to layout its content*/
+
+.articlegrid {
+    border-top: black solid 0.5vw;
+    display: grid;
+    grid-template-areas:
+        'articleimages articletexts rate';
+    background-color: var(--medium);
+    grid-template-columns: 25% 60% 12%;
+    padding: 1%;
+    gap: 2%;
+}
+
+#rate {
+    grid-area: rate;
+    width: 100%;
+    height: 20%;
+    margin-top: -9%;
+}
+
+#articletexts {
+    grid-area: articletexts;
+    width: 90%;
+    height: 16vw;
+}
+
+#articledate {
+    float: left;
+    width: 90%;
+    font-size: 1.1vw;
+    font-family: 'Andale Mono', monospace;
+}
+
+#articleheading {
+    font-size: 2.4vw;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#articledescr {
+    font-size: 1.4vw;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#articleimages {
+    grid-area: articleimages;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.footer { 
+    grid-area: footer;
+    position: relative;
+    background-color: var(--topbot);
+    height: 100px;
+    margin-top: 1%;
+ }
+
+
