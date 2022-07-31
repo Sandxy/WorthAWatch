@@ -298,9 +298,14 @@ h2 {
 .footer { 
     grid-area: footer;
     position: relative;
-    background-color: var(--topbot);
-    height: 100px;
     margin-top: 1%;
+    background-color: var(--contentback);
+    margin-bottom: 1%;
+    font-size: 2vw;
+    text-align: right;
+    padding: 1% 0% 1% 0%;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
  }
 
 
