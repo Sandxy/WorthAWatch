@@ -9,6 +9,16 @@
     grid-template-columns: 70% 30%;
 }
 
+.reviewGrid {
+    display: grid;
+    grid-template-areas:
+        'header header '
+        'largeWindow largeWindow '
+        'articles socialMedia'
+        'footer footer ';
+    grid-template-columns: 70% 30%;
+}
+
 
 .aboutwaw {
     grid-area: aboutwaw;
@@ -95,3 +105,26 @@
     background-color: var(--contentback);
     margin-left: 3%;
  }
+
+ #searchbar {
+    font-size: 1.6vw;
+    height: 3vw;
+    margin-top: -2%;
+ }
+
+ #searchlimg {
+    width: 20%;
+    height: auto;
+    float: right;
+    cursor: pointer;
+ }
+
+ .searchItems{
+    display: none;    
+   } 
+
+ #listSearch {
+    float: left;
+    margin-left: 5.5%;
+ }
+
