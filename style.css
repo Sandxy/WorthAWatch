@@ -51,7 +51,7 @@ body {
  }
 
  #list {
-     margin-top: 1%;
+    margin-top: 1%;
  }
 
  ul {
@@ -219,7 +219,7 @@ body {
 
 /*Grid for articles*/
 
-.articles {
+.articlesHome {
     grid-area: articles;
     display: grid;
     padding: 10px;
@@ -232,7 +232,7 @@ body {
     margin-top: 4%;
 }
 
-.articles > div {
+.articlesHome > div {
     margin-left: 6%;
     width: 87%;
 }

@@ -120,11 +120,35 @@
  }
 
  .searchItems{
-    display: none;    
+    display: none;   
+    background-color: transparent;
    } 
 
  #listSearch {
     float: left;
     margin-left: 5.5%;
+    font-size: 1.4vw;
  }
 
+ .searchItems:hover {
+    background-color: transparent;
+    color: var(--light);
+    cursor: pointer;
+ }
+
+ .articles {
+    grid-area: articles;
+    display: grid;
+    padding: 10px;
+    grid-template: 100%;
+    width: 100%;
+    padding-top: 1%;
+    background-color: var(--contentback);
+    gap: 2vw;
+    box-sizing: border-box;
+}
+
+.articles > div {
+    margin-left: 6%;
+    width: 87%;
+}
