@@ -9,8 +9,8 @@
     --contentback: #877387;
     --bodyback: #190219;
     --topbot: #312244;
-
 }
+
 body {
     background-color: var(--bodyback);
     margin: 1% 2% 0% 2%;
@@ -345,6 +345,3 @@ h2 {
 #footerLinks:hover {
     color: var(--light);
 }
-
-
- 

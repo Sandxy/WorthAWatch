@@ -27,7 +27,6 @@
     padding-top: 1%;
     background-color: var(--contentback);
     height: 98.7%;
-
 }
 
 .aboutwaw > div {
@@ -151,4 +150,57 @@
 .articles > div {
     margin-left: 6%;
     width: 87%;
+}
+
+#listItem {
+    float: right;
+    width: 90%;
+    padding-bottom: 6%;
+
+}
+
+#listItem > a:hover {
+    color: var(--light);
+}
+
+.listGrid {
+    border-top: black solid 0.5vw;
+    background-color: var(--medium);
+    padding: 1%;
+    padding-top: 4%;
+    font-size: 2.4vw;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+#bullet {
+    float: left;
+    width: 10%; 
+    padding-bottom: 6%;
+
+}
+
+.linkclass {
+    grid-area: aboutwaw;
+    display: grid;
+    width: 100%;
+    padding-top: 1%;
+    background-color: var(--contentback);
+}
+
+.linkclass > div {
+    margin-left: 1%;
+    width: 96%;
+}
+
+#listImages {
+    float: left;
+    width: 30%;
+}
+
+#movieTitle {
+    float: right;
+    width: 70%;
 }
