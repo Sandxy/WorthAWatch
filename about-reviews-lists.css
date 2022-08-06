@@ -268,3 +268,100 @@
     margin-bottom: 5%;
 }
 
+.singlearticlegrid {
+    border-top: black solid 0.5vw;
+    background-color: var(--medium);
+    grid-template-columns: 25% 60% 12%;
+    padding: 1%;
+    gap: 2%;
+}
+
+
+
+#singlearticletexts {
+    width: 100%;
+}
+
+#singlearticledate {
+    float: left;
+    width: 100%;
+    font-size: 1.1vw;
+    font-family: 'Andale Mono', monospace;
+    margin-bottom: 2%;
+}
+
+#singlearticleheading {
+    font-size: 2.4vw;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2%;
+}
+
+#singlearticledescr {
+    font-size: 1.4vw;
+    font-family: 'Helvetica', sans-serif;
+    margin-top: 2%;
+    line-height: 1.6;
+}
+
+#singlearticleimages {
+    width: 100%;
+    height: 32vw;
+    object-fit: cover;
+}
+
+h4 {
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8vw;
+
+}
+
+#ratingGrid {
+    display: grid;
+    grid-template-areas:
+    'ratingBars singlerate';
+    grid-template-columns: 50% 50%;
+    background-color: var(--contentback);
+    width: 100%;
+}
+
+#singlerate {
+    grid-area: singlerate;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: vw;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 1000;
+}
+
+#ratePic {
+    width: 12vw;
+    height: 8vw;
+}
+
+
+.ratingBars {
+    grid-area: ratingBars;
+    font-size: 1.4vw;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
+}
+
+#ratings {
+    width: 100%;
+    background-color: var(--medium);
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.ratingsSingular {
+    background-color: var(--light);
+}
+
+#overall {
+    font-size: 1.8vw;
+    text-align: center;
+    margin: 4% 0 4% 0;
+}
