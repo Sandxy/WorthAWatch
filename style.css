@@ -16,7 +16,9 @@ body {
     margin: 1% 2% 0% 2%;
 }
 
-
+#logo {
+    width: 4vw;
+}
 
 .websiteGrid {
     display: grid;
