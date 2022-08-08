@@ -17,7 +17,9 @@ body {
 }
 
 #logo {
-    width: 4vw;
+    width: 5vw;
+    float: left;
+    padding-left: 1%;
 }
 
 .websiteGrid {
