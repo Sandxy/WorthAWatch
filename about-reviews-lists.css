@@ -347,6 +347,7 @@ h4 {
     font-size: 1.4vw;
     font-family: 'Helvetica', sans-serif;
     font-weight: 600;
+    border: 0.5vw solid var(--contentback);
 }
 
 #ratings {
