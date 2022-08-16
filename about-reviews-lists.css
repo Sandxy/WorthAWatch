@@ -366,3 +366,9 @@ h4 {
     text-align: center;
     margin: 4% 0 4% 0;
 }
+
+#movieHeader {
+    font-size: 2.4vw;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+}
