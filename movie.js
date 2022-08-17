@@ -9,15 +9,15 @@ let description;
 
 switch (number) {
     case 2:
-        text = "After the brutal murder of his fiancé, he turns the killers live into a living nightmare. But he made one big mistake: he underestimated the killer and soon enough the game gets turned around.";
+        text = "After the brutal murder of his fiancé, he turns the killers live into a living nightmare. But he made one big mistake: he underestimated the killer and soon enough the game gets turned around.        ";
         description = "description2";
         break;
     case 3:
-        text = "After the brutal murder of his fiancé, he turns the killers live ns the killers live s the killers live s the killers live into a living nightmare. But he made one big mistake: he underestimated the killer and soon enough the game gets turned around.";
+        text = "Once the horror-figure Pennywise appears in a small town, children start to disappear and the nightmare begins. ";
         description = "description3";
         break;
     case 4:
-        text = "After the brutal murder of ut he made one big mistake: he underestimated the killer and soon enough the game gets turned around.";
+        text = "What happens when Bad Luck itself stumbles into the world of luck itself? Sam, the unluckiest person on the planet turns the land of luck with her misfortune upside down.";
         description = "description4";
         break;
     case 5:
