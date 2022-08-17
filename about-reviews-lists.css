@@ -123,16 +123,28 @@
     background-color: transparent;
    } 
 
+   .searchItems:hover {
+    background-color: transparent;
+    text-decoration: none;
+   }
+
+   .searchItems > a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-family: 'Lato', sans-serif;
+   } 
+
+ .searchItems > a:hover {
+    color: var(--light);
+    cursor: pointer;
+ }
+
  #listSearch {
     float: left;
     margin-left: 5.5%;
     font-size: 1.4vw;
- }
-
- .searchItems:hover {
-    background-color: transparent;
-    color: var(--light);
-    cursor: pointer;
+    width: 100%;
  }
 
  .articles {

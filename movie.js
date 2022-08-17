@@ -54,3 +54,8 @@ function searchSite() {
     }
 }
 
+function enter() {
+    if (event.keyCode === 13) {
+        searchSite();
+    }
+}
