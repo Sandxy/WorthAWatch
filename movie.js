@@ -21,13 +21,13 @@ switch (number) {
         description = "description4";
         break;
     case 5:
-        text = "After the brutal murder of his fiancé, he turns the killers live into a living nightmare. But he made one big mistake: he underestimated the killer and soon enough the game gets turned around.";
+        text = "On the antarctica, far from any civilization, a research team makes an interesting find. An Alien, that has been frozen for decades. One by one it starts taking out the men, who now have to fight for their lives. ";
         description = "description5";
         break;
 }
 
     document.getElementById(description).innerHTML = text;
-    document.getElementById(description).style.backgroundColor = "rgba(117,114,114,0.5)";
+    document.getElementById(description).style.backgroundColor = "rgba(117,114,114,0.8)";
 
 }
 
