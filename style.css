@@ -369,3 +369,34 @@ h2 {
     color: var(--light);
 }
 
+#errorimg {
+        display: block;
+        margin-top: 4.5%;
+        width: 40vw;
+        float: right;
+}
+
+.errortxt {
+    float: left;
+    width: 50%;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    margin-left: 8%;
+    color: white;
+    text-align: center;
+}
+
+#errorheading {
+    margin-top: 2%;
+    font-size: 6vw;
+}
+
+#error4 {
+    margin-top: 8%;
+    font-size: 8vw;
+}
+
+#errordescr {
+    margin-top: 2%;
+    font-size: 3vw;
+}
