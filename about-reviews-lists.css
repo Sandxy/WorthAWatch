@@ -1,5 +1,3 @@
-
-
 .aboutGrid {
     display: grid;
     grid-template-areas:
@@ -29,7 +27,7 @@
     height: 98.7%;
 }
 
-.aboutwaw > div {
+.aboutwaw>div {
     margin-left: 1%;
     width: 98%;
 }
@@ -99,56 +97,57 @@
     object-fit: cover;
 }
 
-.socialMedia2 { 
+.socialMedia2 {
     grid-area: socialMedia;
     background-color: var(--contentback);
     margin-left: 3%;
- }
+}
 
- #searchbar {
+#searchbar {
     font-size: 1.6vw;
     height: 3vw;
     margin-top: -2%;
- }
+}
 
- #searchlimg {
+#searchlimg {
     width: 20%;
     height: auto;
     float: right;
     cursor: pointer;
- }
+}
 
- .searchItems{
-    display: none;   
+.searchItems {
+    display: none;
     background-color: transparent;
-   } 
+}
 
-   .searchItems:hover {
+.searchItems:hover {
     background-color: transparent;
     text-decoration: none;
-   }
+}
 
-   .searchItems > a:link, a:visited {
+.searchItems>a:link,
+a:visited {
     color: black;
     text-decoration: none;
     font-size: 1.2vw;
     font-family: 'Lato', sans-serif;
-   } 
+}
 
- .searchItems > a:hover {
+.searchItems>a:hover {
     color: var(--light);
     cursor: pointer;
- }
+}
 
- #listSearch {
+#listSearch {
     float: left;
     margin-left: 5.5%;
     font-size: 1.4vw;
     width: 100%;
     margin-top: -15%;
- }
+}
 
- .articles {
+.articles {
     grid-area: articles;
     display: grid;
     padding: 10px;
@@ -160,7 +159,7 @@
     box-sizing: border-box;
 }
 
-.articles > div {
+.articles>div {
     margin-left: 6%;
     width: 87%;
 }
@@ -172,7 +171,7 @@
 
 }
 
-#listItem > a:hover {
+#listItem>a:hover {
     color: var(--light);
 }
 
@@ -190,7 +189,7 @@
 
 #bullet {
     float: left;
-    width: 10%; 
+    width: 10%;
     padding-bottom: 6%;
 
 }
@@ -203,7 +202,7 @@
     background-color: var(--contentback);
 }
 
-.linkclass > div {
+.linkclass>div {
     margin-left: 1%;
     width: 96%;
 }
@@ -260,7 +259,7 @@
     transform: translateY(-50%);
 }
 
-#singleItem > a:hover {
+#singleItem>a:hover {
     color: var(--light);
 }
 
@@ -270,7 +269,7 @@
     margin-left: 1%;
     font-weight: 1000;
     margin-bottom: 2%;
-    
+
 }
 
 #singleDescr {
@@ -333,7 +332,7 @@ h4 {
 #ratingGrid {
     display: grid;
     grid-template-areas:
-    'ratingBars singlerate';
+        'ratingBars singlerate';
     grid-template-columns: 50% 50%;
     background-color: var(--contentback);
     width: 100%;
