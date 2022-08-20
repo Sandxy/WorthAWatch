@@ -24,7 +24,7 @@
     width: 100%;
     padding-top: 1%;
     background-color: var(--contentback);
-    height: 98.7%;
+
 }
 
 .aboutwaw>div {
@@ -44,8 +44,8 @@
     grid-template-columns: 30% 55% 12%;
     padding: 1%;
     gap: 2%;
-    height: 165%;
-    margin-top: -25%;
+    height: 35vw;
+    margin-top: 5%;
 }
 
 #aboutHeading {

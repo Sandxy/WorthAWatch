@@ -115,19 +115,19 @@ li:hover {
     padding: 2%;
 }
 
-#artlinks {
+.artlinks {
     padding-bottom: 6%;
     font-size: 1.6vw;
     font-family: 'Helvetica', sans-serif;
 }
 
-#artlinks>a:hover {
-    color: var(--light);
-}
-
-#artlinks>a:link,
+.artlinks>a:link,
 a:visited {
     color: black;
+}
+
+#artlinksLink:hover {
+    color: var(--light);
 }
 
 .largeWindow {
