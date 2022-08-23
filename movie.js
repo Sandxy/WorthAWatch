@@ -9,7 +9,7 @@ function txthover(articleNR) {
 
     switch (number) {
         case 2:
-            text = "After the brutal murder of his fiancé, he turns the killers live into a living nightmare. But he made one big mistake: he underestimated the killer and soon enough the game gets turned around.        ";
+            text = "In the town where Finney lives, all of a sudden, children start to disappear. For the third kidnapping Finney gets taken when he walked home after school.";
             description = "description2";
             break;
         case 3:
