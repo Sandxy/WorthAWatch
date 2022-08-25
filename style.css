@@ -401,3 +401,32 @@ h2 {
     margin-top: 2%;
     font-size: 3vw;
 }
+
+.articlegrid2 {
+    border-top: black solid 0.5vw;
+    display: grid;
+    grid-template-areas:
+        'articleimages articletexts';
+    background-color: var(--medium);
+    grid-template-columns: 30% 70%;
+    padding: 1%;
+    gap: 2%;
+}
+
+#articlesHeader {
+    font-size: 2.4vw;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+#articlesHeader>a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#articlesHeader>a:hover {
+    color: var(--light);
+}
