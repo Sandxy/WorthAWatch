@@ -312,6 +312,11 @@ h2 {
 #articledescr {
     font-size: 1.4vw;
     font-family: 'Helvetica', sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 
 #articleimages {
