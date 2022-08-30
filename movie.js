@@ -8,12 +8,12 @@ function txthover(articleNR) {
     let description;
 
     switch (number) {
-        case 2:
-            text = "In the town where Finney lives, all of a sudden, children start to disappear. For the third kidnapping Finney gets taken when he walked home after school.";
+        case 2:                                                                                                                                                                                                                                                                                                          // this marks the end...
+            text = "Leena looks like a child but is actually 31 years old. That is because of a condition called hypopituitarism, which prevents her body from aging. She is a patient in an Estonian psychiatric clinic. One day Leena manages to lure a guard into her cell, and after murdering him, she steals his security card to escape...";
             description = "description2";
             break;
-        case 3:
-            text = "Once the horror-figure Pennywise appears in a small town, children start to disappear and the nightmare begins. ";
+        case 3:                                                                                                                                                                                                 // this marks the end...
+            text = "In the town where Finney lives, all of a sudden, children start to disappear. For the third kidnapping Finney gets taken when he walked home after school.";
             description = "description3";
             break;
         case 4:
@@ -28,7 +28,6 @@ function txthover(articleNR) {
 
     document.getElementById(description).innerHTML = text;
     document.getElementById(description).style.backgroundColor = "rgba(117,114,114,0.8)";
-
 }
 
 function txtnormal(des) {

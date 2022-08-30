@@ -213,6 +213,11 @@ a:visited {
     padding: 15% 2% 0% 2%;
 }
 
+#description2 {
+    padding: 5% 12% 0% 12%;
+}
+
+
 #title {
     font-size: 2.3vw;
     color: white;
