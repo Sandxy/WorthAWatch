@@ -440,3 +440,14 @@ a:visited {
 #ListsHeader>a:hover {
     color: var(--light);
 }
+
+.articlegridHOME {
+    border-top: black solid 0.5vw;
+    display: grid;
+    grid-template-areas:
+        'articleimages articletexts';
+    background-color: var(--medium);
+    grid-template-columns: 25% 75%;
+    padding: 1%;
+    gap: 2%;
+}
