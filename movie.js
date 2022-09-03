@@ -58,3 +58,49 @@ function enter() {
         searchSite();
     }
 }
+
+function displayMovie() {
+    var divsToShow = document.getElementsByClassName("articlegrid"); //divsToHide is an array
+    var divsToHide = document.getElementsByClassName("articlegrid5");
+    var divsToHide2 = document.getElementsByClassName("articlegridShows");
+    for(var i = 0; i < divsToHide.length; i++){
+        divsToHide[i].style.display = "none"; // depending on what you're doing
+    }
+    for(var i = 0; i < divsToHide2.length; i++){
+        divsToHide2[i].style.display = "none"; // depending on what you're doing
+    }
+    for(var i = 0; i < divsToShow.length; i++){
+        divsToShow[i].style.display = "inherit"; // depending on what you're doing
+    }
+}
+
+function displayShort() {
+    var divsToShow = document.getElementsByClassName("articlegrid5"); //divsToHide is an array
+    var divsToHide = document.getElementsByClassName("articlegrid");
+    var divsToHide2 = document.getElementsByClassName("articlegridShows");
+    for(var i = 0; i < divsToHide.length; i++){
+        divsToHide[i].style.display = "none"; // depending on what you're doing
+    }
+    for(var i = 0; i < divsToHide2.length; i++){
+        divsToHide2[i].style.display = "none"; // depending on what you're doing
+    }
+    for(var i = 0; i < divsToShow.length; i++){
+        divsToShow[i].style.display = "inherit"; // depending on what you're doing
+    }
+}
+
+function displayShows() {
+    var divsToHide2 = document.getElementsByClassName("articlegrid5"); //divsToHide is an array
+    var divsToHide = document.getElementsByClassName("articlegrid");
+    var divsToShow = document.getElementsByClassName("articlegridShows"); 
+
+    for(var i = 0; i < divsToHide.length; i++){
+        divsToHide[i].style.display = "none"; // depending on what you're doing
+    }
+    for(var i = 0; i < divsToHide2.length; i++){
+        divsToHide2[i].style.display = "none"; // depending on what you're doing
+    }
+    for(var i = 0; i < divsToShow.length; i++){
+        divsToShow[i].style.display = "inherit"; // depending on what you're doing
+    }
+}

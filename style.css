@@ -451,3 +451,15 @@ a:visited {
     padding: 1%;
     gap: 2%;
 }
+
+.articlegrid5 {
+    border-top: black solid 0.5vw;
+    display: grid;
+    grid-template-areas:
+        'articleimages articletexts rate';
+    background-color: var(--medium);
+    grid-template-columns: 25% 70% 12%;
+    padding: 1%;
+    gap: 2%;
+    display: none;
+}

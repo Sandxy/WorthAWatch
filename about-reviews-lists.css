@@ -461,3 +461,15 @@ h5 {
     margin-top: -0%;
 }
 
+#short {
+    float: right;
+    margin-right: 6%;
+    font-size: 1.3vw;
+    margin-top: -2%;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+#selections:hover {
+    color: var(--light);
+}
