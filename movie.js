@@ -21,7 +21,7 @@ function txthover(articleNR) {
             description = "description4";
             break;
         case 5:
-            text = "On the antarctica, far from any civilization, a research team makes an interesting find. An Alien, that has been frozen for decades. One by one it starts taking out the men, who now have to fight for their lives. ";
+            text = "A young graffiti artist who likes to spray his work on walls inside of the rich and powerful makes a discovery in one of the homes he broke into, that would get him, and the people he cares about, in danger.";
             description = "description5";
             break;
     }
