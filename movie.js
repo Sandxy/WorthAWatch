@@ -17,7 +17,7 @@ function txthover(articleNR) {
             description = "description3";
             break;
         case 4:
-            text = "What happens when Bad Luck itself stumbles into the world of luck itself? Sam, the unluckiest person on the planet turns the land of luck with her misfortune upside down.";
+            text = "The bullying Shaun had to live with for a long time finally comes to an end. But the end, that the bully faces: no one should experience something appalling and horrifying like that...";
             description = "description4";
             break;
         case 5:

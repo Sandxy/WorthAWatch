@@ -24,7 +24,6 @@
     width: 100%;
     padding-top: 1%;
     background-color: var(--contentback);
-
 }
 
 .aboutwaw>div {
@@ -44,8 +43,11 @@
     grid-template-columns: 30% 55% 12%;
     padding: 1%;
     gap: 2%;
-    height: 35vw;
+    height: 80%;
     margin-top: 5%;
+    position: absolute;
+    width: 64%;
+    top: 12.6vw;
 }
 
 #aboutHeading {
@@ -53,6 +55,7 @@
     font-size: 3vw;
     margin-left: 1%;
     font-weight: 1000;
+    /*margin-bottom: -6.2vw;*/
 }
 
 #rateAbout {
