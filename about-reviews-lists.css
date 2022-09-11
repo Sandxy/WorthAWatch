@@ -483,3 +483,38 @@ h5 {
 #selections:hover {
     color: var(--light);
 }
+
+
+
+
+
+
+.accordion {
+    background-color: var(--medium);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    transition: 0.4s;
+    border: solid 0.1vw var(--contentback);
+  }
+  
+  .active, .accordion:hover {
+    background-color: var(--light); 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: var(--contentback);
+    overflow: hidden;
+  }
+
+  .dropdowns {
+    border: var(--contentback) solid 0.3vw;
+  }

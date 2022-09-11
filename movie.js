@@ -104,3 +104,5 @@ function displayShows() {
         divsToShow[i].style.display = "inherit"; // depending on what you're doing
     }
 }
+
+
